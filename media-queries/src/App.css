@@ -1,0 +1,268 @@
+.App {
+    height: 800vh;
+    width: 100vw;
+   
+}
+.navback{
+    height: 100vh;
+    width: 100%;
+    background: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+    background-position-y: -150px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+header {
+    height: 50px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.divbox {
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+/* .sticky{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    position: sticky;
+    bottom: 0;
+    right: 0;
+} */
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    margin: 0 20px;
+    
+}
+li > a:hover{
+    color: goldenrod;
+}
+
+.name {
+    color: goldenrod;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 900;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.mh2{
+    font-size: 50px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: cursive;
+}
+.mh1{
+    font-size: 70px;
+    font-weight: 900;
+    padding: 0px 20px 40px 20px;
+}
+.mbtn{
+    height: 80px;
+    width: 300px;
+    background-color: goldenrod;
+    color: white;
+    border: 3px solid rgb(240, 202, 106);
+    font-size: 40px;
+    border-radius: 5px 5px;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    /* background: rgb(118, 195, 221); */
+    justify-content: center;
+    align-items: center;
+}
+.ser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-bottom: 20px; */
+}
+.ser > h1 {
+    font-size: 50px;
+    margin: 0;
+    font-family: cursive;
+}
+.ecom{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.icon{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: goldenrod;
+    margin: 30px auto;
+}
+.ecomtitle{
+    font-size: 20px;
+    font-weight: 800;
+}
+.info{
+    margin: 20px 40px;
+}
+div > p {
+    text-align: center;
+    width: 250px;
+}
+
+.portfolio {
+    height: 120vh;
+    width: 100%;
+    background: rgb(224, 244, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.port {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.port > h1 {
+    font-size: 40px;
+    font-family: cursive;
+    margin: 0;
+}
+.port > p {
+    width: 300px;
+    margin: 0;
+}
+
+.portphotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.photor > div{
+    height: 400px;
+    width: 300px;
+    background: white;
+    margin: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portpic{
+    height: 75%;
+    width: 100%;
+    background: url(https://scontent-sea1-1.cdninstagram.com/vp/c9a8fb8961a92941d1900c0200bf3414/5C617B67/t51.2885-15/e35/s480x480/11820588_1553859538168141_113924534_n.jpg);
+    transition: 1s;
+    animation: change 5s ease-in-out 0s infinite forwards;
+}
+.portpic:hover{
+    background: goldenrod;
+
+}
+
+
+.portinfo{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portinfo h2{
+    margin: 5px auto;
+}
+.portinfo p{
+    margin: 0;
+}
+
+.about{
+    height: 120vh;
+    width: 100%;
+    background: rgb(52, 176, 244);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aHead > h1 {
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: 900;
+    margin: 0;
+}
+.aHead > p {
+   width: 300px;
+   margin: 0;
+}
+.abody {
+    display: flex;
+    height: 90%;
+    width: 100%;
+    margin-top: 40px;
+    /* background-color: grey; */
+}
+.aleft{
+    /* height: 80%; */
+    background: rgb(245, 138, 138);
+    width: 40%
+}
+.amiddle{
+    width: 20%
+}
+
+.aright{
+    /* height: 80%; */
+    background: grey;
+    width: 40%
+}
